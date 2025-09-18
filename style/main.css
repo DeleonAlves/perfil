@@ -1,0 +1,115 @@
+html * {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    min-width: 100vw;   
+    background: #758085;
+    background: linear-gradient(68deg, rgba(117, 128, 133, 1) 0%, rgba(47, 51, 47, 0.7) 46%, rgba(28, 28, 28, 1) 100%);
+}
+
+.container {
+    display: flex;
+    max-width: 650px;    
+    margin: auto;
+    padding: 80px 10px;
+}
+
+div.contorno {
+    display: grid;
+    background-color: #22212126;
+    grid-template-columns: 50% 50%;
+    padding: 10px;
+}
+
+.bloc-one {
+    margin: 0 ;
+    width: 300px;
+}
+
+.bloc-one__img {
+    display: flex;
+    justify-content: center;
+    padding:20px;
+}
+
+ img {
+    width: 200px;
+    border-radius: 25%;
+}
+
+div.bloc-one__title {
+  
+    text-align: center;
+    margin: auto;
+    width: 250px;
+}
+.bloc-one__title h1, .bloc-one__title h2 {
+    margin: 10;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(159, 156, 151);
+    font-family: "Roboto mono";
+}
+
+.bloc-one__title h2 {
+    padding-top: 5px;
+}
+
+.col-links__title {
+    box-shadow: 0px 20px 25px -5px rgba(214, 198, 198, 0.1) 0px 10px 10px -5px rgba(0, 0, 0,  0.04);
+
+}
+
+.text {
+    background: #d3d4de;
+    background: radial-gradient(circle, rgba(211, 212, 222, 1) 60%, rgba(150, 149, 149, 1) 100%);    padding: 5px;
+    text-align: justify;
+    border-radius: 10%;
+    font-family:"Alan Sans"
+}
+
+div.col-links {
+    margin: 10px;
+   
+}
+
+.col-links__link ul {
+    list-style: none;
+    padding-inline-start: 0%;
+
+}
+
+.col-links__link a:hover {
+    border: solid 1px #fff;
+    background-color: #757373;
+}
+
+.col-links__link a {
+    display: flex;
+    border: solid 1px black;
+    margin-bottom: 10px;
+    border-radius: 24px;
+    text-decoration: none;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+div.col-links__link {
+    list-style: none;
+    padding-left: 0px;
+    padding-right: 0px;
+   
+}
+
+.links-itens {
+    width: 100%;
+    text-align: center;
+    color: #444;
+    font-size: 18px;
+    font-weight: 600;
+}
