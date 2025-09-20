@@ -109,7 +109,31 @@ div.col-links__link {
 .links-itens {
     width: 100%;
     text-align: center;
-    color: #444;
+    color: #5d5b5b;
     font-size: 18px;
     font-weight: 600;
 }
+
+
+
+@media screen and (max-width: 560px){
+
+   .bloc-one { 
+    display: block;
+    width: 300px;
+    position: absolute;
+    padding: 10px;
+   }
+
+    
+    .col-links {
+        display: block;
+        width: 300px;
+        position: absolute;
+        top: 600px;
+        padding-right: 30px;
+    }
+
+}
+
+
