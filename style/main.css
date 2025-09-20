@@ -72,6 +72,10 @@ div.bloc-one__title {
     padding: 10px;
 }
 
+.col__h2 {
+    margin-top: 40px;
+}
+
 div.col-links {
     margin: 10px;
    width: 300px;
