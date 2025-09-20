@@ -20,9 +20,12 @@ html, body {
 }
 
 div.contorno {
-    display: grid;
+    display: flex;
     background-color: #22212126;
     grid-template-columns: 50% 50%;
+    padding: 10px;
+
+    background-color: #22212126;
     padding: 10px;
 }
 
@@ -39,7 +42,7 @@ div.contorno {
 
  img {
     width: 200px;
-    border-radius: 25%;
+    border-radius: 20%;
 }
 
 div.bloc-one__title {
@@ -57,6 +60,8 @@ div.bloc-one__title {
 
 .bloc-one__title h2 {
     padding-top: 5px;
+    font-family: "Alan Sans";
+
 }
 
 .col-links__title {
@@ -65,16 +70,16 @@ div.bloc-one__title {
 }
 
 .text {
-    background: #d3d4de;
-    background: radial-gradient(circle, rgba(211, 212, 222, 1) 60%, rgba(150, 149, 149, 1) 100%);    padding: 5px;
     text-align: justify;
     border-radius: 10%;
-    font-family:"Alan Sans"
+    font-family:"Alan Sans";
+    color: #fffefe;
+    padding: 10px;
 }
 
 div.col-links {
     margin: 10px;
-   
+   width: 300px;
 }
 
 .col-links__link ul {
@@ -103,25 +108,39 @@ div.col-links__link {
     list-style: none;
     padding-left: 0px;
     padding-right: 0px;
-   
+    font-family: "Alan Sans";
+
 }
 
 .links-itens {
     width: 100%;
     text-align: center;
-    color: #5d5b5b;
+    color: #fffefe;
     font-size: 18px;
     font-weight: 600;
 }
 
 
 
-@media screen and (max-width: 560px){
+@media screen and (max-width: 660px){
 
-   .bloc-one { 
-    display: block;
+    .container {
+        padding: 0px;
+    }
+
+    .contorno {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        align-items: center;
+    }
+
+   .bloc-one {     
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 300px;
-    position: absolute;
     padding: 10px;
    }
 
@@ -130,10 +149,10 @@ div.col-links__link {
         display: block;
         width: 300px;
         position: absolute;
-        top: 600px;
-        padding-right: 30px;
+        top: 550px;
     }
 
 }
+
 
 
