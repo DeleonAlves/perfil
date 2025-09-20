@@ -21,11 +21,6 @@ html, body {
 
 div.contorno {
     display: flex;
-    background-color: #22212126;
-    grid-template-columns: 50% 50%;
-    padding: 10px;
-
-    background-color: #22212126;
     padding: 10px;
 }
 
@@ -136,12 +131,12 @@ div.col-links__link {
     }
 
    .bloc-one {     
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 300px;
-    padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 300px;
+        padding: 10px;
    }
 
     
